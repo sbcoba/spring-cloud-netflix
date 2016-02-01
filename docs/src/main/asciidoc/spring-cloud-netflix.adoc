@@ -417,7 +417,7 @@ the system can in principle survive split-brain type failures.
 
 === Prefer IP Address
 
-In some cases, it is preferable for Eureka to advertise the IP Adresses
+In some cases, it is preferable for Eureka to advertise the IP Addresses
 of services rather than the hostname.  Set `eureka.instance.preferIpAddress`
 to `true` and when the application registers with eureka, it will use its
 IP Address rather than its hostname.
